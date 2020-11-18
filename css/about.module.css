@@ -72,3 +72,10 @@
   display: flex;
   /* justify-content: space-around; */
 }
+
+@media screen and (max-width: 767px) {
+  .container .logo {
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+  }
+}

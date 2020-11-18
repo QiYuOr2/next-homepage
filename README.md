@@ -7,7 +7,3 @@
 - `npm install`
 
 - `npm run dev`
-
-## TODO
-
-- 移动端适配

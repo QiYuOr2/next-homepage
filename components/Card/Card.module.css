@@ -34,8 +34,21 @@
 }
 
 .listContainer {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1180px) {
+  .container {
+    width: 100%;
+  }
+  .listContainer {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-around;
+  }
 }

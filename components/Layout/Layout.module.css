@@ -5,7 +5,7 @@
 
 .main {
   height: calc(100% - 3rem - 5.4rem);
-  min-height:  calc(100vh - 3rem - 5.4rem);
+  min-height: calc(100vh - 3rem - 5.4rem);
 
   display: flex;
   justify-content: center;
@@ -24,4 +24,17 @@
   margin-left: 5px;
 
   color: #ae5ec7;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    height: calc(100% - 4rem - 6.2rem);
+    min-height: calc(100vh - 4rem - 6.2rem);
+  }
+
+  .footer {
+    font-size: 12px;
+    height: 4rem;
+    flex-direction: column;
+  }
 }
