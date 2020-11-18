@@ -29,6 +29,11 @@ export default function Header({ title = 'BAR团队' }: Props) {
         <title>{title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link
+          rel="shortcut icon"
+          href="../../static/favicon.ico"
+          type="image/x-icon"
+        />
       </Head>
       <header className={styles.container}>
         <div>{title}</div>
