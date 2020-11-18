@@ -1,0 +1,27 @@
+._blank {
+  display: inline-block;
+  width: 1rem;
+}
+
+.main {
+  height: calc(100% - 3rem - 5.4rem);
+  min-height:  calc(100vh - 3rem - 5.4rem);
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  height: 3rem;
+  border-top: 1px solid #545b61;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.powerlink {
+  display: inline-block;
+  margin-left: 5px;
+
+  color: #ae5ec7;
+}

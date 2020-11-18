@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --primary-color: #343a40;
+  --shadow-color: #c0c0c0;
+  --box-shadow: 1px 1px 10px var(--shadow-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1 {
+  padding-bottom: 1rem;
+
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: normal;
+}

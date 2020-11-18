@@ -1,0 +1,34 @@
+.wrapper {
+  background-color: var(--primary-color);
+  height: 3.4rem;
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: center;
+
+  color: #fff;
+  font-size: 20px;
+}
+.wrapper .container {
+  width: 76%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .container nav a {
+  display: inline-block;
+  padding: 0.4rem;
+
+  color: #a3a3a3;
+  font-size: 16px;
+  transition: 0.4s;
+}
+.wrapper .container nav a:hover {
+  color: #cccecf;
+  transition: 0.4s;
+}
+.wrapper .container nav a.active {
+  color: #fff;
+}
