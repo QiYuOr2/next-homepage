@@ -34,7 +34,6 @@
 .container .logo {
   width: 8rem;
   height: 8rem;
-  margin-top: 2rem;
   border-radius: 8px;
 
   box-shadow: var(--box-shadow);
@@ -70,10 +69,12 @@
 .container .content > section:last-child {
   width: 100%;
   display: flex;
-  /* justify-content: space-around; */
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    width: 86%;
+  }
   .container .logo {
     margin-top: -2rem;
     margin-bottom: 1rem;
